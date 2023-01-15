@@ -4,7 +4,7 @@ const Footer = () => {
     <footer>
       <div className="footer-container">
         <div className="footer-section">
-          <img src={footerLogo} alt="image" />
+          <img src={footerLogo} alt="" />
         </div>
         <div className="footer-section">
           <h3>Postal address</h3>
@@ -30,35 +30,35 @@ const Footer = () => {
         </div>
         <div className="footer-section">
           <div className="links_wrapper">
-            <a href="#">
+            <a>
               <span> Accessibility statement</span>
             </a>
-            <a href="#">
+            <a>
               <span> Data privacy notice</span>
             </a>
-            <a href="#">
+            <a>
               <span>Campuses</span>{" "}
             </a>
-            <a href="#">
+            <a>
               <span> City of Oulu</span>
             </a>
           </div>
         </div>
       </div>
       <div className="social-media-icons">
-        <a href="#">
+        <a>
           <i className="fab fa-facebook-f"></i>
         </a>
-        <a href="#">
+        <a>
           <i className="fab fa-twitter"></i>
         </a>
-        <a href="#">
+        <a>
           <i className="fab fa-instagram"></i>
         </a>
-        <a href="#">
+        <a>
           <i className="fab fa-youtube"></i>
         </a>
-        <a href="#">
+        <a>
           <i className="fab fa-linkedin-in"></i>
         </a>
       </div>
