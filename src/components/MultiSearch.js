@@ -1,8 +1,8 @@
 const MultiSearch = () => {
   return (
-    <div class="card_6">
-      <div class="wrapper_div_3">
-        <div class="card-left_6">
+    <div className="card_6">
+      <div className="wrapper_div_3">
+        <div className="card-left_6">
           <h4>
             Responsible multidisiplinary <br />
             research
@@ -15,26 +15,26 @@ const MultiSearch = () => {
           </p>
           <ul>
             <li>
-              <div class="angle_icon_6">
+              <div className="angle_icon_6">
                 <a href="#">High-level impactful research</a>
-                <i class="fa-solid fa-angle-right"></i>
+                <i className="fa-solid fa-angle-right"></i>
               </div>
             </li>
             <li>
-              <div class="angle_icon_6">
+              <div className="angle_icon_6">
                 <a href="#">Responsible research</a>
-                <i class="fa-solid fa-angle-right"></i>
+                <i className="fa-solid fa-angle-right"></i>
               </div>
             </li>
             <li>
-              <div class="angle_icon_6">
+              <div className="angle_icon_6">
                 <a href="#">Donate to science</a>
-                <i class="fa-solid fa-angle-right"></i>
+                <i className="fa-solid fa-angle-right"></i>
               </div>
             </li>
           </ul>
         </div>
-        <div class="card_right_6">
+        <div className="card_right_6">
           <img src="images/cold.png" alt="#" />
         </div>
       </div>

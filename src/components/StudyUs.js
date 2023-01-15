@@ -1,8 +1,8 @@
 const StudyUs = () => {
   return (
-    <div class="card_5">
-      <div class="wrapper_div_3">
-        <div class="card-left_5">
+    <div className="card_5">
+      <div className="wrapper_div_3">
+        <div className="card-left_5">
           <h4>Welcome to study with us</h4>
           <p>
             Our educational purpose is to train future pioneers who build a more
@@ -13,28 +13,28 @@ const StudyUs = () => {
           </p>
           <ul>
             <li>
-              <div class="angle_icon_5">
+              <div className="angle_icon_5">
                 <a href="#">
                   International programmes - study options and student life
                 </a>
-                <i class="fa-solid fa-angle-right"></i>
+                <i className="fa-solid fa-angle-right"></i>
               </div>
             </li>
             <li>
-              <div class="angle_icon_5">
+              <div className="angle_icon_5">
                 <a href="#">Doctoral training</a>
-                <i class="fa-solid fa-angle-right"></i>
+                <i className="fa-solid fa-angle-right"></i>
               </div>
             </li>
             <li>
-              <div class="angle_icon_5">
+              <div className="angle_icon_5">
                 <a href="#">Continuous learning</a>
-                <i class="fa-solid fa-angle-right"></i>
+                <i className="fa-solid fa-angle-right"></i>
               </div>
             </li>
           </ul>
         </div>
-        <div class="card_right_5">
+        <div className="card_right_5">
           <img src="images/idea.png" alt="#" />
         </div>
       </div>
