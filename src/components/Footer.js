@@ -1,9 +1,10 @@
+import footerLogo from "./images/footer_logo.png";
 const Footer = () => {
   return (
     <footer>
       <div className="footer-container">
         <div className="footer-section">
-          <img src="images/footer_logo.png" alt="image" />
+          <img src={footerLogo} alt="image" />
         </div>
         <div className="footer-section">
           <h3>Postal address</h3>

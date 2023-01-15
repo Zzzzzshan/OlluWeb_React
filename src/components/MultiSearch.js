@@ -1,3 +1,4 @@
+import cold from "./images/cold.png";
 const MultiSearch = () => {
   return (
     <div className="card_6">
@@ -35,7 +36,7 @@ const MultiSearch = () => {
           </ul>
         </div>
         <div className="card_right_6">
-          <img src="images/cold.png" alt="#" />
+          <img src={cold} alt="#" />
         </div>
       </div>
     </div>

@@ -1,3 +1,5 @@
+import eye from "./images/eye.png";
+
 const Diverse = () => {
   return (
     <div className="card_7">
@@ -47,7 +49,7 @@ const Diverse = () => {
           </ul>
         </div>
         <div className="card_right_7">
-          <img src="images/eye.png" alt="#" />
+          <img src={eye} alt="#" />
         </div>
       </div>
     </div>

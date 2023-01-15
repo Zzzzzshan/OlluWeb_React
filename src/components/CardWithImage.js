@@ -1,10 +1,11 @@
+import image_card from "./images/image_card.jpg";
 const CardWithImage = () => {
   return (
     <div className="wrapper_div_2">
       <div className="outer-card_4">
         <div className="inner-card_4">
           <img
-            src={"/images/image_card.jpg"}
+            src={image_card}
             alt="Description of image"
             className="card-image_4"
           />

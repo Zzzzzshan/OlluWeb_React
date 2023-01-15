@@ -1,3 +1,4 @@
+import idea from "./images/idea.png";
 const StudyUs = () => {
   return (
     <div className="card_5">
@@ -35,7 +36,7 @@ const StudyUs = () => {
           </ul>
         </div>
         <div className="card_right_5">
-          <img src="images/idea.png" alt="#" />
+          <img src={idea} alt="#" />
         </div>
       </div>
     </div>
