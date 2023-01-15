@@ -5,6 +5,9 @@ import NewsEvents from "./components/NewsEvents";
 import CardsOpst from "./components/CardsOpst";
 import CardWithImage from "./components/CardWithImage";
 import StudyUs from "./components/StudyUs";
+import MultiSearch from "./components/MultiSearch";
+import Diverse from "./components/Diverse";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div>
@@ -15,6 +18,9 @@ function App() {
       <CardsOpst />
       <CardWithImage />
       <StudyUs />
+      <MultiSearch />
+      <Diverse />
+      <Footer />
     </div>
   );
 }
