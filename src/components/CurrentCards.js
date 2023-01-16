@@ -23,11 +23,9 @@ const CurrentCards = () => {
           </div>
           <div className="paragraph_icon">
             <h4>
-              Decades of research confirm: the <br />
-              biggest cause of decline in the wil- <br />
-              low tit population is forest manage- <br />
-              ment - decaying trees are viral for <br />
-              the endangered species
+              Decades of research confirm: the biggest cause of decline in the
+              wil low tit population is forest management decaying trees are
+              viral for the endangered species
             </h4>
             <i className="fa-solid fa-angle-right"></i>
           </div>
@@ -39,10 +37,9 @@ const CurrentCards = () => {
           </div>
           <div className="paragraph_icon">
             <h4>
-              More than 5 million euros of dona- <br />
-              tion funds allocated to the develop- <br />
-              ment of research and education and <br />
-              the well-being of students
+              More than 5 million euros of dona tion funds allocated to the
+              develop ment of research and education and the well-being of
+              students
             </h4>
             <i className="fa-solid fa-angle-right"></i>
           </div>
