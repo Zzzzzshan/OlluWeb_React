@@ -439,7 +439,24 @@ footer {
   color: rgb(90, 171, 221);
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  html,
+  body {
+    overflow-x: hidden !important;
+    width: 100vw !important;
+  }
+  .wrapper_div {
+    width: 100vw !important;
+    margin: 0 auto;
+  }
+  .wrapper_div_2 {
+    width: 100vw !important;
+    margin: 0 auto;
+  }
+  .wrapper_div_3 {
+    width: 100vw !important;
+    margin: 0 auto;
+  }
   /* Header */
   .container {
     display: none;
