@@ -462,16 +462,24 @@ footer {
     display: none;
   }
   /* Header Mobile */
-  .container_mbl {
-    display: block !important;
-    align-items: center;
-    justify-content: space-between;
-    background: #23408f;
-  }
+
   .container_mbl nav {
     justify-content: space-between;
     padding-left: 1rem;
   }
+
+  .container_mbl {
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background: #23408f;
+  }
+
   /* .container_mbl nav a {
     font-size: 1rem;
     padding: 4rem 1rem;
