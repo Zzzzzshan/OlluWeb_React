@@ -8,10 +8,12 @@ import StudyUs from "./components/StudyUs";
 import MultiSearch from "./components/MultiSearch";
 import Diverse from "./components/Diverse";
 import Footer from "./components/Footer";
+import Mob_Header from "./components/Mob_Header";
 function App() {
   return (
     <div>
       <Header />
+      <Mob_Header />
       <ImageBg />
       <CurrentCards />
       <NewsEvents />

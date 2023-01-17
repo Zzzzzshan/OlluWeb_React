@@ -461,6 +461,32 @@ footer {
   .container {
     display: none;
   }
+  /* Header Mobile */
+  .container_mbl {
+    display: block !important;
+    align-items: center;
+    justify-content: space-between;
+    background: #23408f;
+  }
+  .container_mbl nav {
+    justify-content: space-between;
+    padding-left: 1rem;
+  }
+  /* .container_mbl nav a {
+    font-size: 1rem;
+    padding: 4rem 1rem;
+    line-height: 5.5rem;
+    color: white;
+  } */
+
+  /* .container_mbl nav a:hover {
+    background: rgb(90, 171, 221);
+    color: black;
+  } */
+  /* .container_mbl nav a i {
+    font-size: 1rem;
+    padding-left: 1.5rem;
+  } */
   /* Current Section */
   .section_grid {
     display: grid;
