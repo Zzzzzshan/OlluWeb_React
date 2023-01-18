@@ -474,7 +474,7 @@ footer {
   .container_mbl {
     z-index: 10;
     position: fixed;
-    top: 0;
+    top: auto;
     left: 0;
     display: block;
     width: 100%;
@@ -506,6 +506,34 @@ footer {
   .card-container {
     display: block;
   }
+  .paragraph_icon h4 {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .paragraph_icon i {
+    font-size: 1.3rem;
+    color: #23408f;
+  }
+
+  /* Two heading cards next to each other */
+  .card-container {
+    display: block;
+  }
+
+  .card_3_i,
+  .card_3_ii {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: #23408f;
+    color: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
 
   /* Card with image on left and text on right */
   .outer-card_4 {
@@ -514,7 +542,7 @@ footer {
   }
 
   .inner-card_4 {
-    width: 50%;
+    width: 100%;
   }
   /* Footer */
   .footer-container {

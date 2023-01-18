@@ -14,10 +14,7 @@ const CardWithImage = () => {
           <div className="inner_card_text_4">
             <div className="heading_container">
               <div className="card-heading_4">
-                <h4>
-                  Welcome to work at the <br />
-                  University of Oulu
-                </h4>
+                <h4>Welcome to work at the University of Oulu</h4>
               </div>
               <div className="angle-right_4">
                 <i className="fa-solid fa-angle-right"></i>
