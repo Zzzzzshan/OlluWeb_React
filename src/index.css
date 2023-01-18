@@ -467,7 +467,9 @@ footer {
   /* Header Mobile */
 
   .container_mbl nav {
-    margin: 0 1rem 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
 
   .container_mbl {
@@ -475,6 +477,7 @@ footer {
     position: fixed;
     bottom: 0;
     left: 0;
+    right: 0;
     display: block;
     width: 100%;
     align-items: center;
@@ -482,12 +485,11 @@ footer {
     background: #23408f;
   }
 
-  /* .container_mbl nav a {
+  .container_mbl nav a {
     font-size: 1rem;
-    padding: 4rem 1rem;
     line-height: 5.5rem;
     color: white;
-  } */
+  }
 
   /* .container_mbl nav a:hover {
     background: rgb(90, 171, 221);
@@ -548,6 +550,7 @@ footer {
     font-weight: bold;
     font-size: 1rem;
     line-height: 1rem;
+    padding-right: 1rem;
   }
 
   .paragraph_icon i {
@@ -604,19 +607,26 @@ footer {
   .inner-card_4 {
     width: 100%;
   }
+  .card-heading_4 {
+    font-size: 1.2rem;
+  }
+
+  .angle-right_4 i {
+    font-size: 1.5rem;
+  }
 
   /* <!-- Welcome to study with us --> */
   .card_5 {
     display: flex;
     background: rgb(90, 171, 221);
-    margin-top: 2rem;
-    padding: 1rem;
+    margin-top: 1rem;
   }
   .card-left_5,
   .card-left_6,
   .card-left_7 {
     width: 100%;
-    display: inline-block;
+    display: block;
+    padding: 1rem;
   }
   .card_right_5,
   .card_right_6,
@@ -635,14 +645,14 @@ footer {
   .card-left_5,
   .card-left_6,
   .card-left_7 h4 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .card-left_5 p,
   .card-left_6 p,
   .card-left_7 p {
     font-size: 1.5rem;
-    line-height: 2rem;
-    margin: 3rem 0;
+    margin: 2rem 0;
+    padding: 0.5rem;
   }
 
   .card-left_5 ul,
@@ -673,15 +683,12 @@ footer {
   .angle_icon_5 a,
   .angle_icon_6 a,
   .angle_icon_7 a {
-    font-size: 1.6rem;
-    font-weight: bold;
-    color: black;
+    font-size: 1.2rem;
   }
   .angle_icon_5 i,
   .angle_icon_6 i,
   .angle_icon_7 i {
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 1.5rem;
   }
 
   /* Footer */
