@@ -467,14 +467,13 @@ footer {
   /* Header Mobile */
 
   .container_mbl nav {
-    justify-content: space-between;
-    padding-left: 1rem;
+    margin: 0 1rem 0 2rem;
   }
 
   .container_mbl {
     z-index: 10;
     position: fixed;
-    top: auto;
+    bottom: 0;
     left: 0;
     display: block;
     width: 100%;
@@ -498,10 +497,47 @@ footer {
     font-size: 1rem;
     padding-left: 1.5rem;
   } */
+  /* Image background */
+  .card {
+    background: #23408f;
+    position: absolute;
+    top: 65%;
+    left: 0;
+    margin: 1rem;
+  }
+
+  .content {
+    display: flex;
+    padding: 40px 30px;
+    width: 100%;
+    color: white;
+  }
+  .content:hover {
+    background-color: rgb(90, 171, 221);
+    color: black;
+  }
+  .text {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.33;
+  }
+  .icon {
+    font-weight: bold;
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+  }
   /* Current Section */
   .section_grid {
     display: grid;
     grid-template-columns: 1fr;
+  }
+  .section_name {
+    display: block;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 7rem;
+    margin-left: 1rem;
   }
   .card-container {
     display: block;
@@ -518,10 +554,35 @@ footer {
     font-size: 1.3rem;
     color: #23408f;
   }
+  /* All news & events section */
+  .two_headings {
+    line-height: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin-right: 1rem;
+  }
+
+  .two_headings h3 {
+    font-size: 1.5rem;
+    color: blueviolet;
+  }
+
+  .two_headings h3:hover {
+    color: black;
+  }
+
+  .two_headings i {
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    font-weight: bold;
+  }
 
   /* Two heading cards next to each other */
   .card-container {
     display: block;
+    margin: 1rem;
   }
 
   .card_3_i,
@@ -532,18 +593,97 @@ footer {
     background: #23408f;
     color: white;
     padding: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   /* Card with image on left and text on right */
   .outer-card_4 {
     display: block;
-    margin-top: 2rem;
+    margin: 1rem;
   }
-
   .inner-card_4 {
     width: 100%;
   }
+
+  /* <!-- Welcome to study with us --> */
+  .card_5 {
+    display: flex;
+    background: rgb(90, 171, 221);
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+  .card-left_5,
+  .card-left_6,
+  .card-left_7 {
+    width: 100%;
+    display: inline-block;
+  }
+  .card_right_5,
+  .card_right_6,
+  .card_right_7 {
+    width: 100%;
+    display: inline-block;
+  }
+  .card_right_5 img,
+  .card_right_6 img,
+  .card_right_7 img {
+    height: 18rem;
+    width: 20rem;
+    margin: 3rem 1rem 7rem 10rem;
+  }
+
+  .card-left_5,
+  .card-left_6,
+  .card-left_7 h4 {
+    font-size: 2rem;
+  }
+  .card-left_5 p,
+  .card-left_6 p,
+  .card-left_7 p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 3rem 0;
+  }
+
+  .card-left_5 ul,
+  .card-left_6 ul,
+  .card-left_7 ul {
+    list-style-type: none;
+    line-height: 1.8rem;
+  }
+
+  .card-left_5 ul li,
+  .card-left_6 ul li,
+  .card-left_7 ul li {
+    display: block;
+    padding: 1rem;
+    margin: 0 -1rem;
+  }
+  .card-left_5 ul li:hover {
+    background: yellow;
+  }
+
+  .angle_icon_5,
+  .angle_icon_6,
+  .angle_icon_7 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .angle_icon_5 a,
+  .angle_icon_6 a,
+  .angle_icon_7 a {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: black;
+  }
+  .angle_icon_5 i,
+  .angle_icon_6 i,
+  .angle_icon_7 i {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
   /* Footer */
   .footer-container {
     display: block;
