@@ -303,6 +303,9 @@ body {
 .card-left_7 h4 {
   font-size: 2rem;
 }
+.mbl_img_h4 {
+  display: none;
+}
 .card-left_5 p,
 .card-left_6 p,
 .card-left_7 p {
