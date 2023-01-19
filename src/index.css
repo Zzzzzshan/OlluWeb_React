@@ -637,24 +637,24 @@ footer {
   .card_right_5 img,
   .card_right_6 img,
   .card_right_7 img {
-    height: 18rem;
-    width: 20rem;
-    margin: 3rem 1rem 7rem 10rem;
+    display: none;
   }
 
   .card-left_5,
   .card-left_6,
   .card-left_7 h4 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
-  .card-left_5 p,
-  .card-left_6 p,
-  .card-left_7 p {
-    font-size: 1.5rem;
-    margin: 2rem 0;
-    padding: 0.5rem;
+  .mbl-img-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
-
+  .mbl_img_h4 {
+    padding-left: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+  }
   .card-left_5 ul,
   .card-left_6 ul,
   .card-left_7 ul {

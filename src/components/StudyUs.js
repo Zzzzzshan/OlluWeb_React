@@ -4,7 +4,10 @@ const StudyUs = () => {
     <div className="card_5">
       <div className="wrapper_div_3">
         <div className="card-left_5">
-          <h4>Welcome to study with us</h4>
+          <div className="mbl-img-div">
+            <h4>Welcome to study with us</h4>
+            <img className="mbl_img_h4" src={idea} alt="#" />
+          </div>
           <p>
             Our educational purpose is to train future pioneers who build a more
             sustainable, intelligent, and humane world.Every year,over 3 000 new

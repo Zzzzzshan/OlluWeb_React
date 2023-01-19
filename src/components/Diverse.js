@@ -5,7 +5,10 @@ const Diverse = () => {
     <div className="card_7">
       <div className="wrapper_div_3">
         <div className="card-left_7">
-          <h4>Diverse collaboration and services</h4>
+          <div className="mbl-img-div">
+            <h4>Diverse collaboration and services</h4>
+            <img className="mbl_img_h4" src={eye} alt="#" />
+          </div>
           <p>
             The University of Oulu works with the diverse partners lo- cally,
             nationally and internationally.Our services help you find the

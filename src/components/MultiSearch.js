@@ -4,10 +4,10 @@ const MultiSearch = () => {
     <div className="card_6">
       <div className="wrapper_div_3">
         <div className="card-left_6">
-          <h4>
-            Responsible multidisiplinary <br />
-            research
-          </h4>
+          <div className="mbl-img-div">
+            <h4>Responsible multidisiplinary research</h4>
+            <img className="mbl_img_h4" src={cold} alt="#" />
+          </div>
           <p>
             At the University of Oulu, we participate in solving global problems
             with our cutting-edge research. The openness and responsibility of
