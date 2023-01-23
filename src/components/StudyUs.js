@@ -1,4 +1,5 @@
 import idea from "./images/idea.png";
+
 const StudyUs = () => {
   return (
     <div className="card_5">
