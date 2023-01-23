@@ -1,10 +1,11 @@
-import mbl_logo from "./images/mbl_screen_logo.png";
+// import mbl_logo from "./images/mbl_screen_logo.png";
+import mbl_logo_1 from "./images/mbl_screen_logo_1.png";
 
 const ImageBg = () => {
   return (
     <div className="bg_image">
-      <img className="mbl_logo" src={mbl_logo} alt="#" />
-
+      {/* <img className="mbl_logo" src={mbl_logo} alt="#" /> */}
+      <img className="mbl_logo" src={mbl_logo_1} alt="#" />
       <div className="card">
         <div className="content">
           <div className="text">
